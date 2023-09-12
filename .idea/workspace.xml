@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="057fad96-714d-4c0b-9d39-9f2737b2a503" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/procedural generation playground.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Biome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenerateChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VertexGenerator.java" afterDir="false" />
+    <list default="true" id="057fad96-714d-4c0b-9d39-9f2737b2a503" name="Changes" comment="started working on it woo">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +47,18 @@
       <option name="presentableId" value="Default" />
       <updated>1694531337075</updated>
     </task>
+    <task id="LOCAL-00001" summary="started working on it woo">
+      <created>1694537181638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694537181638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="started working on it woo" />
+    <option name="LAST_COMMIT_MESSAGE" value="started working on it woo" />
   </component>
 </project>
