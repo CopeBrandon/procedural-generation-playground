@@ -1,12 +1,12 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Vertex {
     int[] position;
     ArrayList<Vertex> adjacentVertex = new ArrayList<>();
     Biome biome;
-    public Vertex(int[] position, Vertex parent, Biome biome){
+    public Vertex(int[] position, Biome biome){
         this.position = position; // position is (x,y,z) where position is south, east, up
-        adjacentVertex.add(parent); //always generates from east to west, north to south
         this.biome = biome;
     }
     public void addAdjacentVertex(Vertex vertex){
@@ -19,5 +19,10 @@ public class Vertex {
         } else {
             adjacentVertex.add(vertex);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Vertex{" + Arrays.toString(position) + " biome: " + biome.type + " waterlevel: " + biome.waterLevel + "}";
     }
 }
